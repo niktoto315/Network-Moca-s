@@ -10,11 +10,11 @@ State = {
 }
 
 function Click1(){
-State['Count'] += State['d'];
+State['Count'] += State['butPlus'];
 }
 
 function MainTimer(){
-State['Count'] += State['d'];
+State['Count'] += State['passPlus'];
 Elements['p'][0] = State['Count'];
 }
 
