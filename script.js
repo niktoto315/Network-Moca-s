@@ -15,7 +15,7 @@ State['Count'] += State['butPlus'];
 
 function MainTimer(){
 State['Count'] += State['passPlus'];
-Elements['p'][0] = State['Count'];
+Elements['pars'][0] = State['Count'];
 }
 
 setInterval(MainTimer, 1000);
