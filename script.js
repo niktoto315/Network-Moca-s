@@ -5,7 +5,12 @@ Elements = {
 
 State = {
 'Count': 0,
-'d': 1,
+'passPlus': 1,
+'butPlus': 10,
+}
+
+function Click1(){
+State['Count'] += State['d'];
 }
 
 function MainTimer(){
