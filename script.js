@@ -1,6 +1,7 @@
 Elements = {
 'pars': [document.querySelector('#par1')],
 'buttons': [document.querySelector('#but1')],
+'texts': [document.querySelector('#text1')],
 }
 
 Game = {
@@ -10,7 +11,8 @@ Game = {
 }
 
 function Click1(){
-Game['Count'] += Game['butPlus'];
+if(+Elements['texts'][0].value > 0)Game['Count'] += +Elements['texts'][0].value;
+else alert('Error number');
 }
 
 function MainTimer(){
